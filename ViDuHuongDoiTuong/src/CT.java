@@ -18,9 +18,14 @@ public class CT {
 		dsSanPham.add(sp2);
 		dsSanPham.add(sp3);
 		
-		for(SanPham x: dsSanPham)
-			System.out.println(x.toString());
-		
+//		for(SanPham x: dsSanPham)
+//			System.out.println(x.toString());
+//		
+		for(int i = 0; i< dsSanPham.size() ; i++)
+		{
+			SanPham sp = dsSanPham.get(i);
+			System.out.println(sp.toString());
+		}
 	}
 
 }
